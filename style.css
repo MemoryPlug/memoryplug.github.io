@@ -1,0 +1,46 @@
+body, html {
+	width: 100%;
+	height: 100%; 
+}
+
+hr {
+	max-width: 80px;
+	border-width: 3px;
+	border-color: rgba(0, 0, 0, 1); 
+}
+
+header.landing {
+	background-position: center;
+	background-image: url("scott-webb-207709-unsplash.jpg");
+	background-size: cover;
+	height: 100%;
+}
+
+header.landing hr {
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+header.landing h1 {
+	font-size: 2rem; 
+	margin-top: 222px;
+}
+
+.btn {
+	font-weight: 400;
+	border-radius: 10px;
+	font-family: 'Fire Sans', sans-serif;
+}
+
+.btn-primary {
+	background-color: rgba(255, 0, 102, 0.7);
+	border: 0px;
+}
+
+.btn-primary:hover {
+	background-color: rgba(0, 0, 0, 0.1); 
+	color: rgb(255, 0, 102);
+	border: 0px;
+	border-width: 5px;
+	cursor: pointer;
+}
